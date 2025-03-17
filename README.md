@@ -51,15 +51,11 @@ JWT_SECRET=your-secret-key
 
 Start the backend server
 
-bash
-
 cd backend
 
 npm run dev
 
 Start the frontend
-
-bash
 
 cd frontend
 

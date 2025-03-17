@@ -1,0 +1,137 @@
+/* CartPage.css */
+
+.cart-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Left side - Cart Items */
+.cart-items {
+    flex: 2;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cart-details {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.cart-details h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.cart-details p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b12704;
+    margin-bottom: 10px;
+}
+
+/* Quantity and Remove Button */
+.cart-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart-quantity {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cart-quantity button {
+    background: #f0c14b;
+    border: 1px solid #a88734;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.cart-quantity button:hover {
+    background: #ddb347;
+}
+
+.cart-quantity span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.remove-btn {
+    background: none;
+    color: #007185;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    text-decoration: underline;
+}
+
+/* Right side - Checkout Summary */
+.cart-summary {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+
+.cart-summary h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.cart-summary p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background: #e68900;
+}
+
+.checkout-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

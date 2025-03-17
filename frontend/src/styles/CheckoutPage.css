@@ -1,0 +1,137 @@
+/* Checkout Page Container */
+.checkout-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.checkout-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111;
+    border-bottom: 3px solid #f0c14b;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Order Summary */
+.checkout-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+/* Checkout Items */
+.checkout-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    gap: 15px;
+}
+
+.checkout-item:last-child {
+    border-bottom: none;
+}
+
+.checkout-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.checkout-item div {
+    flex: 1;
+}
+
+.checkout-item h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #007185;
+}
+
+.checkout-item p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Total Price */
+.checkout-details h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #b12704;
+    text-align: right;
+}
+
+/* Form Inputs */
+.input-group {
+    margin-top: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+
+/* Place Order Button */
+.place-order-btn {
+    background: #f0c14b;
+    border: 1px solid #a88734;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.place-order-btn:hover {
+    background: #ddb347;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .checkout-container {
+        padding: 15px;
+    }
+
+    .checkout-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .checkout-item img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .checkout-details h2 {
+        text-align: center;
+    }
+}

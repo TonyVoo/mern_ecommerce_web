@@ -1,0 +1,158 @@
+/* Product Page Styles */
+.product-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.product-details img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details {
+    flex: 1;
+}
+
+.details h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.details p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.details h2 {
+    font-size: 22px;
+    color: #d9534f;
+}
+
+.details button {
+    padding: 10px 15px;
+    background: #ff9900;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.details button:hover {
+    background: #e68a00;
+}
+
+/* Review Section */
+.review-section {
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.review-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.review-section li {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-section li strong {
+    font-size: 16px;
+    color: #444;
+}
+
+.review-section li p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.review-section li svg {
+    margin-left: 3px;
+}
+
+/* Review Input */
+.review-input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-input input,
+.review-input select,
+.review-input textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.review-input textarea {
+    height: 80px;
+    resize: none;
+}
+
+.review-input button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.review-input button:hover {
+    background: #0056b3;
+}
+
+/* Ensure page layout works well */
+body {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .product-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-details img {
+        width: 80%;
+    }
+
+    .details {
+        text-align: center;
+    }
+}

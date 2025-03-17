@@ -1,0 +1,74 @@
+/* auth.css */
+
+/* Centering the form */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  /* Box styling */
+  .auth-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .auth-box h2 {
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 15px;
+  }
+  
+  /* Input fields */
+  .auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+  }
+  
+  /* Button styling like Amazon */
+  .auth-box button {
+    width: 100%;
+    background-color: #f0c14b;
+    color: #111;
+    border: 1px solid #a88734;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .auth-box button:hover {
+    background-color: #ddb347;
+  }
+  
+  /* Error or success messages */
+  .auth-box p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+  }
+  
+  /* Register link */
+  .auth-box .register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #0066c0;
+    cursor: pointer;
+  }
+  
+  .auth-box .register-link:hover {
+    text-decoration: underline;
+  }
+  

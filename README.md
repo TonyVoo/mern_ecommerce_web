@@ -22,7 +22,6 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 2️⃣ Install dependencies
 bash
-Copy code
 # Backend
 cd backend
 npm install
@@ -35,18 +34,30 @@ Create a .env file in both frontend and backend folders and add required environ
 
 Backend (backend/.env)
 env
-Copy code
 MONGO_URI=your-mongodb-connection-string
 JWT_SECRET=your-secret-key
 
 4️⃣ Run the app
 Start the backend server
 bash
-Copy code
 cd backend
 npm run dev
 Start the frontend
 bash
-Copy code
 cd frontend
 npm start
+
+🏗 API Endpoints
+🔐 Authentication
+POST /api/auth/register – Register new user
+POST /api/auth/login – Login user
+GET /api/auth/user – Get logged-in user details
+🛍 Products
+GET /api/products – Get all products
+POST /api/products – Add new product (Admin only)
+PUT /api/products/:id – Update product (Admin only)
+DELETE /api/products/:id – Delete product (Admin only)
+📦 Orders
+POST /api/orders – Create order
+GET /api/orders/:userId – Get user orders
+PATCH /api/orders/:id – Update order status (Admin only)

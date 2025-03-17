@@ -38,3 +38,15 @@ env
 Copy code
 MONGO_URI=your-mongodb-connection-string
 JWT_SECRET=your-secret-key
+
+4️⃣ Run the app
+Start the backend server
+bash
+Copy code
+cd backend
+npm run dev
+Start the frontend
+bash
+Copy code
+cd frontend
+npm start

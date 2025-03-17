@@ -17,7 +17,6 @@ Authentication: JWT (JSON Web Token)
 📦 Installation
 1️⃣ Clone the repository
 bash
-Copy code
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 2️⃣ Install dependencies
@@ -38,13 +37,21 @@ MONGO_URI=your-mongodb-connection-string
 JWT_SECRET=your-secret-key
 
 4️⃣ Run the app
+
 Start the backend server
+
 bash
+
 cd backend
+
 npm run dev
+
 Start the frontend
+
 bash
+
 cd frontend
+
 npm start
 
 🏗 API Endpoints

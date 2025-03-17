@@ -13,3 +13,28 @@ Frontend: React.js, Redux (for state management), CSS
 Backend: Node.js, Express.js
 Database: MongoDB with Mongoose
 Authentication: JWT (JSON Web Token)
+
+📦 Installation
+1️⃣ Clone the repository
+bash
+Copy code
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+2️⃣ Install dependencies
+bash
+Copy code
+# Backend
+cd backend
+npm install
+
+# Frontend
+cd ../frontend
+npm install
+3️⃣ Setup environment variables
+Create a .env file in both frontend and backend folders and add required environment variables:
+
+Backend (backend/.env)
+env
+Copy code
+MONGO_URI=your-mongodb-connection-string
+JWT_SECRET=your-secret-key

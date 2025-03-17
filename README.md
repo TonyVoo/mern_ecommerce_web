@@ -7,3 +7,9 @@ Admin Panel: Manage products, categories, and orders
 Product Management: Add, update, delete products with images
 Shopping Cart: Add/remove items, adjust quantity
 Order Processing: Place and track orders
+
+🛠 Tech Stack
+Frontend: React.js, Redux (for state management), CSS
+Backend: Node.js, Express.js
+Database: MongoDB with Mongoose
+Authentication: JWT (JSON Web Token)

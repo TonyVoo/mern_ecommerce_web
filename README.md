@@ -16,24 +16,35 @@ Authentication: JWT (JSON Web Token)
 
 📦 Installation
 1️⃣ Clone the repository
-bash
-git clone https://github.com/your-username/your-repo.git
+
+git clone https://github.com/TonyVoo/big_mart_sales_prediction.git
+
 cd your-repo
+
 2️⃣ Install dependencies
-bash
+
 # Backend
+
 cd backend
+
 npm install
 
 # Frontend
+
 cd ../frontend
+
 npm install
+
 3️⃣ Setup environment variables
+
 Create a .env file in both frontend and backend folders and add required environment variables:
 
 Backend (backend/.env)
+
 env
+
 MONGO_URI=your-mongodb-connection-string
+
 JWT_SECRET=your-secret-key
 
 4️⃣ Run the app
@@ -55,7 +66,9 @@ cd frontend
 npm start
 
 🏗 API Endpoints
+
 🔐 Authentication
+
 POST /api/auth/register – Register new user
 
 POST /api/auth/login – Login user
@@ -69,11 +82,15 @@ POST /api/products – Add new product (Admin only)
 PUT /api/products/:id – Update product (Admin only)
 
 DELETE /api/products/:id – Delete product (Admin only)
+
 📦 Orders
+
 POST /api/orders – Create order
 
 GET /api/orders/:userId – Get user orders
+
 PATCH /api/orders/:id – Update order status (Admin only)
 
 🤝 Contributing
+
 Contributions are welcome! Feel free to fork the repo and submit a pull request.

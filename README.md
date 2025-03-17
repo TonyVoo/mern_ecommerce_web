@@ -50,14 +50,23 @@ npm start
 🏗 API Endpoints
 🔐 Authentication
 POST /api/auth/register – Register new user
+
 POST /api/auth/login – Login user
+
 GET /api/auth/user – Get logged-in user details
 🛍 Products
 GET /api/products – Get all products
+
 POST /api/products – Add new product (Admin only)
+
 PUT /api/products/:id – Update product (Admin only)
+
 DELETE /api/products/:id – Delete product (Admin only)
 📦 Orders
 POST /api/orders – Create order
+
 GET /api/orders/:userId – Get user orders
 PATCH /api/orders/:id – Update order status (Admin only)
+
+🤝 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
